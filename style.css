@@ -1,0 +1,89 @@
+@charset 'UTF-8';
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(65, 105, 225, 0.932);
+    
+}
+header > img {
+    width: 120px;
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+}
+
+main {
+    text-align: center;
+}
+
+main >h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size:26px ;
+    font-weight: 500px;
+    margin-top: 30px;
+}
+
+main > h2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:22px ;
+    font-weight: 10;
+}
+
+main > h1, h2 {
+    line-height: 40px;
+    
+}
+
+form {
+    line-height: 40px;
+}
+
+form > p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+input#email {
+    border-radius: 5px;
+    padding: 15px;
+    border: none;   
+    width: 311px;
+    
+}
+
+input#btn {
+    background-color: rgba(5, 7, 15, 0.795);
+    color: rgb(255, 244, 244);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+article > img {
+    width: 70vh;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+}
+
+section {
+    font-size: 12px;
+    display: flex;
+    background-color: white;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+    
+}
+
+
